@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "josefin sans", sans-serif;
+    font-weight: 300;
+    place-items: center;
+}
+html{
+    font-size: 80.5%;
+}
+h1{
+    color: royalblue;
+}
+
+
+.main_div {
+    width: 150wh;
+    min-height: 150vh;
+    display: grid;
+    place-items: center;
+   background-color: #c9dbed;
+    
+}
+
+.inner-div{
+    width:40vw;
+    background-color: #74b9ff;
+    padding: 3rem 8rem ;
+    border-radius: 1 rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0, 0, 0.4);
+}
+
+
+.inner-div li{
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+
+#submit,.btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 1rem;
+    font-size: 250;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #1840f4;
+    margin-top: 2rem;
+}
+
+#submit:hover {
+    background-color: #021f35;
+}
+#showcard{
+    background-color: #fff;
+    margin-left: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -.7rem rgba(0, 0, 0, 0.4);
+}
+
